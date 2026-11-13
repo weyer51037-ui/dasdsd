@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.vortex.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityRenderDispatcherMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "MouseMixin",
+    "ParticleManagerMixin",
+    "SimpleOptionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
